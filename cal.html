@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</head>
+ 
+<body>
+    <div id="calculator">
+        <div id="input">
+            <input type="text" id="Screen" name="Screen" class="screen" value="" readonly>
+        </div>
+        <div id="keys">
+            <input type="button" id="sin" onclick="sin()" value="sin" />
+            <input type="button" id="cos" onclick="cos()" value="cos" />
+            <input type="button" id="tan" onclick="tan()" value="tan" />
+            <input type="button" id="^" onclick="cal(this.id)" value="^" />
+ 
+            <input type="button" id="sqrt" onclick="sqrt()" value="√" />
+            <input type="button" id="square" onclick="square()" value="x^2" />
+            <input type="button" id="Back" onclick="back()" value="Back" />
+            <input type="button" id="C" onclick="clearNum()" value="CE" />
+ 
+            <input type="button" id="7" onclick="cal(this.id)" value="7" />
+            <input type="button" id="8" onclick="cal(this.id)" value="8" />
+            <input type="button" id="9" onclick="cal(this.id)" value="9" />
+            <input type="button" id="/" onclick="cal(this.id)" value="/" />
+ 
+            <input type="button" id="4" onclick="cal(this.id)" value="4" />
+            <input type="button" id="5" onclick="cal(this.id)" value="5" />
+            <input type="button" id="6" onclick="cal(this.id)" value="6" />
+            <input type="button" id="*" onclick="cal(this.id)" value="*" />
+ 
+            <input type="button" id="1" onclick="cal(this.id)" value="1" />
+            <input type="button" id="2" onclick="cal(this.id)" value="2" />
+            <input type="button" id="3" onclick="cal(this.id)" value="3" />
+            <input type="button" id="-" onclick="cal(this.id)" value="-" />
+ 
+            <input type="button" id="." onclick="cal(this.id)" value="." />
+            <input type="button" id="0" onclick="cal(this.id)" value="0" />
+            <input type="button" id="=" onclick="equal()" value="=" />
+            <input type="button" id="+" onclick="cal(this.id)" value="+" />
+        </div>
+</body>
+ 
+</html>
